@@ -1,0 +1,112 @@
+<!-- Jake Reimer 10/5/21 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Homework 4</title>
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Jake Reimer">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	header {
+	  background-color: #C23A00;
+	  padding: 1px;
+	  height: 140px;
+	  text-align: center;
+	  font-size: 30px;
+	  font-family: Garamond;
+	  color: #681F00;
+	}
+
+	nav {
+	  float: right;
+	  width: 20%;
+	  height: 600px;
+	  background: #A03000;
+	  padding: 20px;
+	  font-family: Papyrus;
+	  font-size: 30px;
+	  color: darkred;
+
+	}
+
+	nav ul {
+	  list-style-type: none;
+	  padding: 20px;
+
+	}
+
+	nav a {
+	color: #3D3D3D;
+	text-decoration: none;
+	}
+
+	article {
+	  float: left;
+	  width: 80%;
+	  background-color: #8D2E06 ;
+	  height: 600px; 
+	}
+
+	section::after {
+	  display: table;
+	  clear: both;
+	}
+
+	footer {
+	  background-color: #C23A00;
+	  padding: 10px;
+	  text-align: center;
+	  color: #681F00;
+	  font-family: Lucida Handwriting;
+	  font-size: 10px;
+	}
+
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	a:hover {
+  color: white;
+}
+<link rel="stylesheet" type="text/css"href="/css/stylesheet.css">
+</style>
+</head>
+
+<body>
+<header>
+	<h1>Historical Artifacts of Ancient Cities</h1>
+</header>
+
+<section>
+  <nav>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="index2.html">Babylonian</a></li>
+      <li><a href="index3.html">Egypt</a></li>
+      <li><a href="index4.html">Roman</a></li>
+
+</ul>
+</nav>
+
+<article style="font-family:Amatic SC,cursive;color:#441400;padding:1%;font-size:1vw">
+	<h2>The Garden Party of Babylon</h2>
+    <p>The "Garden Party" relief depicting Ashurbanipal with his wife seated under a pergola of climbing grapevines with hanging grapes, also small birds, surrounded with fruiting date palms and pine trees from the North Palace, Nineveh, c.645 BC.</p>
+	<p style="font-size:10px;">https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon#/media/File:Assyrian_Relief_of_the_Banquet_of_Ashurbanipal_From_Nineveh_Gypsum_N_Palace_British_Museum_01.jpg</p>
+	<img src="images/babylon2.jpg" alt="babylon" width="800" height="400" class="responsive">
+</article>	
+</section>
+<footer>
+  <p>Thank you for visiting!</p>
+  <p>Questions can be answered at: reijakm@dunwoody.edu</p>
+</footer> 
+
+</body>
+</html>
+

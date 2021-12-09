@@ -1,0 +1,113 @@
+<!-- Jake Reimer 10/5/21 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Homework 4</title>
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Jake Reimer">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	header {
+	  background-color: #C23A00;
+	  padding: 1px;
+	  height: 140px;
+	  text-align: center;
+	  font-size: 30px;
+	  font-family: Garamond;
+	  color: #681F00;
+	}
+
+	nav {
+	  float: right;
+	  width: 20%;
+	  height: 600px;
+	  background: #A03000;
+	  padding: 20px;
+	  font-family: Papyrus;
+	  font-size: 30px;
+	  color: darkred;
+
+	}
+
+	nav ul {
+	  list-style-type: none;
+	  padding: 20px;
+
+	}
+
+	nav a {
+	color: #3D3D3D;
+	text-decoration: none;
+	}
+
+	article {
+	  float: left;
+	  width: 80%;
+	  background-color: #8D2E06 ;
+	  height: 600px; 
+	}
+
+	section::after {
+	  display: table;
+	  clear: both;
+	}
+
+	footer {
+	  background-color: #C23A00;
+	  padding: 10px;
+	  text-align: center;
+	  color: #681F00;
+	  font-family: Lucida Handwriting;
+	  font-size: 10px;
+	}
+
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	a:hover {
+  color: white;
+}
+<link rel="stylesheet" type="text/css"href="/css/stylesheet.css">
+</style>
+</head>
+
+<body>
+<header>
+	<h1>Historical Artifacts of Ancient Cities</h1>
+</header>
+
+<section>
+  <nav>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="index2.html">Babylonian</a></li>
+      <li><a href="index3.html">Egypt</a></li>
+      <li><a href="index4.html">Roman</a></li>
+
+</ul>
+</nav>
+
+<article style="font-family:Amatic SC,cursive;color:#441400;padding:1%;font-size:1vw">
+	<h2>Scipio Africanus the Elder </h2>
+    <p>Roman bronze bust of an unknown man, traditionally identified as Scipio Africanus the Elder from the Naples National Archaeological Museum (Inv. No. 5634), dated to mid 1st century BC. Excavated from the Villa of the Papyri at Herculaneum by Karl Jakob Weber, 1750–65.</p>
+	<p style="font-size:10px;">https://en.wikipedia.org/wiki/Ancient_Rome#/media/File:Escipi%C3%B3n_africano.JPG</p>
+	<img src="images/rome2.jpg" alt="rome1" width="500" height="420" class="responsive">
+	<img src="images/rome3.jpg" alt="rome2" width="500" height="420" class="responsive">
+</article>	
+</section>
+<footer>
+  <p>Thank you for visiting!</p>
+  <p>Questions can be answered at: reijakm@dunwoody.edu</p>
+</footer> 
+
+</body>
+</html>
+
